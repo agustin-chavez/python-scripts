@@ -1,5 +1,5 @@
 # python-scripts
-🐍 Some useful python scripts
+🐍 Some pythonic scripts
 
 Create and activate an environment 3.7 or higher:
 
