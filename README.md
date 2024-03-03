@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 It makes HTTP requests for each <a> tag on a site based on its URL and checks the status of each of these hyperlinks.
 
-### Ejemplo de uso
+### Usage
 ```bash
 python scripts/broken_urls_detector.py https://agustin-chavez.github.io/ -verbose
 ```
@@ -24,8 +24,16 @@ python scripts/broken_urls_detector.py https://agustin-chavez.github.io/ -verbos
 
 Log Analysis Tool filtering and counting the number of errors and warnings
 
-### Ejemplo de uso
-
+### Usage
 ```bash
 python scripts/logs_analyzer.py resources/today.logs
+```
+
+## 3) Web Changes Notifier
+
+Monitors a website to detect changes at regular intervals, every 24 hours by default or every 20 seconds in debug mode
+
+### Usage
+```bash
+python scripts/web_changes_notifier.py https://github.com/agustin-chavez -t 1
 ```
